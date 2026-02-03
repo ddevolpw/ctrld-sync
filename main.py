@@ -43,7 +43,7 @@ TOKEN = os.getenv("TOKEN")
 # Accept either a single profile id or a comma-separated list
 PROFILE_IDS = [p.strip() for p in os.getenv("PROFILE", "").split(",") if p.strip()]
 
-# URLs of the JSON block-lists we want to import
+# URLs of the JSON block-lists we want to import1
 # "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/",
 FOLDER_URLS = [
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/badware-hoster-folder.json",
