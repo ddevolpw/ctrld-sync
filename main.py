@@ -11,7 +11,7 @@ It does three things:
 3. Re-creates the folders and pushes all rules in batches.
 
 Nothing fancy, just works.
-R1
+R2
 """
 
 import os
